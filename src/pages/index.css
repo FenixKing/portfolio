@@ -1,0 +1,32 @@
+@media (max-width: 600px){
+    .main{
+        position: relative;
+        background: url(../assets/sa.jpg) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        min-width: 40ch;
+    }
+}
+.main{
+    position: relative;
+    background: url(../assets/sa.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    min-width: 40ch;
+}
+.back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+.content{
+    padding-inline: 5vw;
+    padding-block: 5vh;
+    position: relative;
+}

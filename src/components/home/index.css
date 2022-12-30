@@ -1,0 +1,214 @@
+
+.home{
+    width: 92vw;
+    height: 80vh;
+    display: flex;
+}
+
+.part1{
+    width: calc(89vw - 50%);
+    padding-block: 10vh;
+}
+
+.welcome {
+    min-width: 16vw;
+    display: flex;
+    border-radius: 2px;
+}
+
+.welcome h6{
+    min-width: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #8d0486, #c50ba6);
+    font-size: 16px;
+    padding-inline: 2vw;
+}
+
+.title{
+    margin-top: 2vh;
+}
+
+.title h1 {
+    font-size: 56px;
+    width: 100%;
+    line-height: 1;
+}
+
+.description {
+    margin-top: 2vh;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    margin-top: 4vh;
+    min-width: 13vw;
+    height: 4vw;
+}
+
+.button a {
+    display: flex;
+    align-items: center;
+    border: solid 1px #fff ;
+    border-radius: 2px;
+    padding-inline: 1vw;
+    padding-block: 2vh;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+.button a:hover{
+    background-color: #d2296a;
+    border: solid 1px #d2296a;
+}
+
+.arrow{
+    font-Weight: 800; 
+    font-Size: 20px;
+    color: #fff; 
+    margin-left: 1vw;
+}
+
+.part2{
+    width: 35vw;
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+
+.part2 img{
+    height: 70vh;
+}
+@media (max-width: 912px){
+    .home{
+        width: 92vw;
+        height: 80vh;
+        display: flex;
+    }
+
+    
+    .welcome {
+        width: 100vw;
+        display: flex;
+        border-radius: 2px;
+    }
+    
+    .welcome h6{
+        min-width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+        background-image: linear-gradient(to right, #8d0486, #c50ba6);
+        font-size: 32px;
+        padding-inline: 3vw;
+        padding-block: 1vh;
+        box-sizing: border-box;
+    }
+    
+    .title{
+        margin-top: 2vh;
+    }
+    
+    .title h1 {
+        font-size: 56px;
+        width: 65vw;
+        line-height: 1;
+    }
+    
+    .description {
+        width: 70vw;
+        margin-top: 2vh;
+    }
+
+    .description p {
+        font-size: 18px;
+    }
+
+    
+    .button a {
+        display: flex;
+        align-items: center;
+        border: solid 2px #fff ;
+        border-radius: 2px;
+        padding-inline: 2vw;
+        padding-block: 2vh;
+        font-weight: 600;
+        color: #fff;
+        font-size: 30px;
+    }
+    .arrow{
+      width: 50px;
+      height: 50px;
+      margin-left: 3vw;  
+    }
+      
+}
+
+@media (max-width: 600px){
+    .home{
+        width: 92vw;
+        height: 80vh;
+        display: flex;
+    }
+
+    
+    .welcome {
+        width: 100vw;
+        display: flex;
+        border-radius: 2px;
+    }
+    
+    .welcome h6{
+        min-width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 2px;
+        background-image: linear-gradient(to right, #8d0486, #c50ba6);
+        font-size: 16px;
+        padding-inline: 2vw;
+        box-sizing: border-box;
+    }
+    
+    .title{
+        margin-top: 2vh;
+    }
+    
+    .title h1 {
+        font-size: 56px;
+        width: 85vw;
+        line-height: 1;
+    }
+    
+    .description {
+        width: 85vw;
+        margin-top: 2vh;
+    }
+    
+    .description p {
+        font-size: 14px;
+    }
+    
+    .button a {
+        display: flex;
+        align-items: center;
+        border: solid 1px #fff ;
+        border-radius: 2px;
+        padding-inline: 2vw;
+        padding-block: 2vh;
+        font-weight: 600;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .arrow{
+        width: 30px;
+        height: 30px;
+        margin-left: 3vw;  
+      }
+    
+}
