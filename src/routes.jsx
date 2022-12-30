@@ -7,7 +7,7 @@ import App from './App'
 
 export const Rotas = () =>{
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route index element={<App />} />
             </Routes>
