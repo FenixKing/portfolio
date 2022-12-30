@@ -34,7 +34,7 @@ export const Home = () => {
                     </p>
                 </div>
                 <div className='button'>
-                    <a href='#'>
+                    <a href="https://www.linkedin.com/in/jos%C3%A9-adriano-dias-rodrigues-11b681163/" target="_blank">
                         Let's Connect
                         <BsArrowRightCircle className='arrow' />
                     </a>
