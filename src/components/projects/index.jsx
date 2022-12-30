@@ -8,7 +8,9 @@ export const Projects = () => {
             <h1>Projects</h1>
             <ul id="projects" className="ul-projects">
                 <li>
-                    <a href="https://github.com/FenixKing/CuteLogin" target="_blank"><img src={CutyLogin} alt="" /></a>
+                    <a href="https://github.com/FenixKing/CuteLogin" target="_blank">
+                        <img src={CutyLogin} alt="" />
+                    </a>
                 </li>
                 <li>
                     <a href="#" target="_blank"><img src={CutyLogin} alt="" /></a>
