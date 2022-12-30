@@ -19,6 +19,7 @@ export const Header = () => {
                     smooth={true}
                     offset={-70}
                     duration={500}
+                    className="link"
                 >   Skills
                 </Link>
                 <Link 
@@ -27,7 +28,11 @@ export const Header = () => {
                     spy={true}
                     smooth={true}
                     offset={-70}
-                    duration={500} >Projects</Link>
+                    duration={500} 
+                    className="link"
+                >
+                        Projects
+                </Link>
             </nav>
             <div className="social" >
                 <a href="https://www.linkedin.com/in/jos%C3%A9-adriano-dias-rodrigues-11b681163/" target="_blank">

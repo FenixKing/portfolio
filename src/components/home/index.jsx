@@ -14,11 +14,11 @@ export const Home = () => {
                 </div>
                 <div className='title'>
                     <h1>
-                        Hi! I'm Aj
+                        Hello World! I'm Aj
                         <TypeIt
                             options={{
                                 strings: [" Frontend Developer"],
-                                speed: 150,
+                                speed: 250,
                                 loop: 150
                             }}
                         />
