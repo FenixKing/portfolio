@@ -14,6 +14,16 @@ export const Header = () => {
             <nav>
                 <Link
                     activeClass="active"
+                    to="home"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="link"
+                >   Home
+                </Link>
+                <Link
+                    activeClass="active"
                     to="skills"
                     spy={true}
                     smooth={true}
@@ -32,6 +42,17 @@ export const Header = () => {
                     className="link"
                 >
                         Projects
+                </Link>
+                <Link 
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500} 
+                    className="link"
+                >
+                        Contact
                 </Link>
             </nav>
             <div className="social" >

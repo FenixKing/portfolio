@@ -1,0 +1,69 @@
+.content-contact{
+    width: 98vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-contact h1{
+    margin-top: 20vh;
+}
+
+.content-contact ul{
+    width: 98vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+    box-sizing: border-box;
+}
+
+.content-contact ul li a{
+    width: 8vw;
+    height: 10vh;
+    padding-block: 3vh;
+    padding-inline: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+}
+
+.content-contact ul li a:before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    border-top: 3px solid transparent;
+    border-right:3px solid transparent;
+    transition: all 0.7s ease;
+ }
+
+.content-contact ul li a:after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    transition: all 0.7s ease;
+ }
+
+ .content-contact ul li a:hover:after, .content-contact ul li a:hover:before{
+    border-color: #d2296a;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+ }

@@ -4,6 +4,7 @@ import { Header } from '../components/header';
 import { Home } from '../components/home';
 import { Skills } from '../components/skills';
 import { Projects } from '../components/projects';
+import { Contact } from '../components/contact';
 
 import "./index.css"
 
@@ -19,6 +20,7 @@ const Main = () => {
             </div>
             <Skills />
             <Projects />
+            <Contact />
         </div>
     )
 }

@@ -12,7 +12,7 @@ export const Projects = () => {
                         <img src={CutyLogin} alt="" />
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a href="#" target="_blank"><img src={CutyLogin} alt="" /></a>
                 </li>
                 <li>
@@ -23,7 +23,7 @@ export const Projects = () => {
                 </li>
                 <li>
                     <a href="#" target="_blank"><img src={CutyLogin} alt="" /></a>
-                </li>
+                </li> */}
             </ul>
         </div>
     )

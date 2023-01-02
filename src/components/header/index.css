@@ -1,11 +1,13 @@
 .header{
     display: flex;
-    width: 92vw;
+    width: 99vw;
     height: 5vh;
     padding-block: 5vh;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: fixed;
+    background: linear-gradient(to bottom, rgb(0, 0, 20), rgba(1, 1, 41, 0.5));
+    z-index: 1;
 }
 .logo{
     width: 60vw;
@@ -13,7 +15,7 @@
 }
 nav{
     display: flex;
-    width: 20vw;
+    width: 30vw;
     margin-right: 4vw;
 }
 
